@@ -1,5 +1,6 @@
 def ten_minute_walk?(walk)
-  horizontal = 0 
+  
+  horizontal = 0
   vertical = 0 
 
 walk.each do |x| 
