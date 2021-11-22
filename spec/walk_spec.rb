@@ -22,7 +22,7 @@ describe "return to centre in 10 min walk" do
     expect(ten_minute_walk?(['w', 's'])).to eq(false)
   end 
 
-# This is the failing test 
+# This is the failing test. 
   it 'should return false' do 
     expect(ten_minute_walk?(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w'])).to eq(false)
   end 

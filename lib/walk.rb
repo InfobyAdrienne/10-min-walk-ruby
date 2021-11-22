@@ -8,14 +8,17 @@ walk.each do |x|
     vertical += 1
   elsif x == 's'
     vertical -= 1
-  elsif walk == 'w'
+  elsif x == 'w'
     horizontal += 1
-  elsif walk == 'e'
+  elsif x == 'e'
     horizontal -= 1
   end
 end 
 
   count = walk.length
-  vertical == 0 && horizontal == 0 && count == 10
+  p count 
+  p horizontal 
+  p vertical
+  (vertical == 0 && horizontal == 0) && count == 10
 
 end 
